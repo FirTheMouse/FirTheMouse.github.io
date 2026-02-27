@@ -356,9 +356,8 @@ And here's the underlying module code for the assignment operator, which is part
                 ctx.node-\>right-\>value.size,   
                 ctx.node-\>right-\>value.data);  
         }
-
-        return ctx.node;  
-    });
+        return ctx.node;
+   });
 
 Working with index-based memory layout like this is quite a pain, and that’s part of the reason I moved on before trying to implement all the array operators to do benchmarks of the actual performance with cache aligned data.   
 The rest of the demo modules can be explored here:  
