@@ -1,8 +1,8 @@
 # FirTheMouse
 Pages for posting about my work until I decide to tackle websites.
 
-## Past Projects
+## Past
 
-[GDSL](GDSL1.md)
+[Early GDSL](GDSL1.md)
 
 ## Log
