@@ -122,7 +122,6 @@ comps \<\< vec4(0,0 , 0,3);
 comps \<\< vec4(0,2 , 0,3);  
 run\_rig(f\_table,s\_table,comps,true,3,500);
 
-Code for the profiler itself is included here: [https://github.com/FirTheMouse/Golden/blob/main/Engine/include/util/logger.hpp](https://github.com/FirTheMouse/Golden/blob/main/Engine/include/util/logger.hpp)  
 The top part is just compilation, I commented out the normal execution so it runs through the test harness instead. This:  
 Run\_rig(f\_table,s\_table,comps,true,1,500);   
 Is providing the test cases, which to compare, enabling warmup runs, setting it to run each table once, and then running the tables 500 times to average it out.  This is so everything is being assessed equally, and cache warming should have minimal impact. Just in case, I arranged the run order of the cases so that the standard execution occurs first, as part of the streaming is standard execution, then streaming, then the C++ execution.   
@@ -363,5 +362,4 @@ Working with index-based memory layout like this is quite a pain, and that’s p
 The rest of the demo modules can be explored here:  
 [https://github.com/FirTheMouse/Golden/blob/main/Projects/GDSL/include/modules/standard.hpp](https://github.com/FirTheMouse/Golden/blob/main/Projects/GDSL/include/modules/standard.hpp)
 
-I’ve got something larger in the works in the machine learning space, trying to take a similar approach of rethinking architecture from first principles, interpretability has been a nice side effect. I’ll be posting about it soon. If any of this resonates, reach out.
 
