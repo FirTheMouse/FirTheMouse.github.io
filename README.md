@@ -9,4 +9,4 @@ Pages for posting about my work until I decide to tackle websites.
 
 [Seams](Seams.md)
 
-[Landscapes.md](Landscapes.md)
+[Landscapes](Landscapes.md)
