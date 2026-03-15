@@ -1,3 +1,5 @@
 title: "Golden"
 theme: minima
+minima:
+  skin: dark
 author: ""
