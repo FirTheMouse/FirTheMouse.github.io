@@ -1,6 +1,6 @@
 3/14/26
 
-By 2002 the weight of the software ecosystem had already reached a tipping point of sorts. Each of the big open source languages of the time, Python, Java, C, didn’t share code, they each rebuilt the platform layers from scratch in their own ways and suffered from it, or made one platform (JVM). This was the world Chirs Lattner wrote his thesis in, a thesis he would go on to prove to Apple in 2005 once he was given the chance, and the rest is history. 
+By 2002 the weight of the software ecosystem had already reached a tipping point of sorts. Each of the big open source languages of the time, Python, Java, C, didn’t share code, they each rebuilt the platform layers from scratch in their own ways and suffered from it, or made one platform (JVM). This was the world Chris Lattner wrote his thesis in, a thesis he would go on to prove to Apple in 2005 once he was given the chance, and the rest is history. 
 
 Since then, LLVM has stood as the king of backends, but like any king it has grown old, and there are many hopefuls rising to vie for the throne, like MLIR. That core though, one backend to rule them all, catches my attention in a very particular way.
 
@@ -8,6 +8,7 @@ I have an affinity for general systems, it's the mode in which I build, and I id
 And I wanted to write about why I think that.
 
 Before I ever started working on anything adjacent to compilers, I knew of LLVM as an indispensable tool: the backend which ran the code I cherished so much. LLVM was the arbiter of how many mice I could have on screen for my games, or what depth my chess engine could minimax too, so I didn't have much reason to think of it. To the contrary, I respected LLVM as a monolith of technology I would probably never touch. The wisdom I heard every time I dipped my toes into that deeper technical domain is 'LLVM already solved the hard problems' and 'it would take years to build anything like it'.
+
 I agree with the second statement now, and that isn't to LLVMs credit.
 The smell started rising the day I compiled a subset of C in 1,500 lines. Orders of magnitude less optimized than LLVM, yes, but deep enough that I could see a particular shape rising from the murky depths of its codebase. This was made clearest when I looked to the efforts of others in compiling C and found skyscrapers hundreds of thousands of lines tall. This isn't a piece about those though, that will come soon enough, no, this is a piece about the basement running even deeper: LLVM.
 
