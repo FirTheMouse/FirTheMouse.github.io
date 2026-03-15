@@ -24,3 +24,5 @@ Sixteen months of digging at concrete, bending pipes, and living in lobbies to b
 it isn't much if you look at it, it's impressive just because it exists, but nobody lives on it.
 
 I gave it a name, a plaque proclaiming it exists, and today I plant the first seeds.
+
+[Modern GDSL](https://github.com/FirTheMouse/GDSL)
