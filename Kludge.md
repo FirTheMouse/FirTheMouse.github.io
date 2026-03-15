@@ -1,0 +1,43 @@
+Kludge is an ugly word for an ugly concept. You may have heard it before, you may have not, but as typically applied in engineering it means a hacky fix to a problem that only causes more down the line. In physical contexts kludges are easy to spot: duct tape on a pipe which now has to leave the wall open for maintenance, a car with no hood because the engine ventilation was broken, a structure held up by its scaffolding. In these contexts any reasonable person can stare at the open wall and say ‘you should probably replace the pipe’, but what happens when every home we built we only ever duct taped over leaks? What happens when the scaffolding is integral to the structure?
+
+In this alternate world, we would imagine a home as an assemblage of ‘pipe slots’, where the constantly-bursting plumbing is made accessible, a core component of any livable space that wishes to not be flooded. All structures are built as scaffolding, because this way a maintainer can easily access each skewed beam to realign them when they slip under the weight of the structure above. No car has a hood because the engine must be constantly accessible to the mechanics, who can be found on every street: a good drive to work only requires two stops for a 10 minute commute. 
+
+This may seem like a dystopia to our sensibilities, but to a citizen of this world pipe slots and scaffolding and open engines are simply how things are done. Ever since cars came along, mechanic programs have exploded at colleges, with new generations of eager students looking to get a job in the growing sector. Most businesses hire mechanics because they hear it's integral to getting customers, not that the business owners really understand how, they’re more concerned with traditional affairs like pipe slots. 
+
+It is not that these people can’t understand that walls should be solid, cars should have hoods, and buildings should stand on their own. It's that the weather is mild, there was never a pressure which made these things so wrong that they would be corrected. There never will be, it could rain, I could claim the world stands on stilts ready to topple, and I hold some solution, but I don’t believe that to be the case. There is no impending disaster on the horizon for these people, they will simply go on with their hoodless cars and sunny days. 
+
+But they will never build anything better than hoodless cars or walls with pipe slots or buildings which only stand with scaffolding. Instead, the cars will get bigger, the wall slots more elaborate, and the scaffolding will turn into mazes which require a degree to navigate. One day business owners will be adopting machines of useless gears and levers which produce the sound of an engine simply because it rings as true as the graduates once did.
+
+This is the world I walk in.
+
+To my eyes the edifices of modern software are as curious as a building which only stands with its scaffolding. Microsoft Azure in particular, which was one of my earlier exposures to the world of software thanks to my father, always struck me as bizarre in a way I couldn’t quite articulate. I remember him spending months getting a certification for it, yet he never learned any real programming, just more about Azure… but not more about Azure, more of Azure. It was Azure all the way down, an impenetrable block of concrete with a very inviting hole that goes a foot deep and makes you look like an engineer just by standing in it. Microsoft has dug hundreds of these holes on the impenetrable foundations they built, selling a fraction of a solution to a problem they created most likely by accident. 
+
+I say by accident because the mechanism by which this happened is very clear. It isn’t some elaborate corporate plot, it’s simply the power of the kludge.
+
+A physicist would say work is the energy transferred to an object by the application of force, I would say work is solving problems. A program that works runs, it does the thing it was meant to do, a program that does not… doesn’t. That’s part of what’s so appealing about programming: it either works or it doesn’t, at least at calmer levels. It makes sense then that the way almost every developer learns to code is the same way we learn to do everything in life: have a problem, know the solution. Want to sort a list? std::sort. Want to make a graph? pandas. Want to build a website? react. These are all tools other people have built, and you may expect me here to go down the classic route, to tell you to build your own (assuming you do program). 
+
+I will not.
+
+You aren’t wrong for using tools other people made, you aren’t wrong for not understanding them. I don’t understand everything I use, I don’t intend to, that’s one of the compromises we make as humans to just keep our brains running every day. 
+
+No, what I point to is much deeper than that. When you see everything as problems and solutions, tools are just the right solution to a problem. Eventually when you start using the tools or building your own you find the problem, find the solution, implement, test, and done. SPRINT and AGILE formalize this system of finding problems, solutions, moving. Undeniably, this works, because you can read this text hosted on one piece of silicon from  your piece of silicon, a broken system would not allow that.
+
+Yet the man with the hoodless car still makes it to work after two mechanics and deals with a burst pipe slot during his lunch break.
+
+I suffered many burst pipes in my own exploration of programming, yet still looked for a smooth wall. I had the inclination from the start to look not for stronger duct tape but better pipes, though oftentimes this would become pipes in more interesting shapes rather than stronger forms. I would like to say that eventually I found my way to the right pipe, to the hood of the car, to the internal support structures… but I may have only found my way to a vantage clear enough to recognize them as something other than normal. I do have one structure worth speaking to though, that being GDSL, the first shape I feel offers something of an answer. That structure hasn’t emerged cleanly from a box, rather, it has been burned out of a mess of pipes far more tangled than the pipe slots we use already. 
+
+Back in July of 2025 I spent three weeks constructing a remarkably elaborate assemblage of kludges by solving each local problem between me and a domain specific language. At some point along that path I detoured into thinking I would make the next Zig because I had found a way to make object oriented syntax be arranged cache optimally. It turns out bending pipes into pretty shapes that should carry water better makes them very hard to do anything else with.
+
+I wouldn’t return to this project for a long time, until February of 2026, where I was once more excited about an interesting shape I had bent some pipes into and wanted to begin establishing my presence online. I saw the old GDSL project as a convenient showcase, so I wrote it up and posted it as my very first blog post. I placed that on Hacker News, and it disappeared into void in the same way I’m sure many of my posts will. That didn’t concern me though, because I wanted to continue on the interesting shape and–
+
+What’s this?
+
+I stepped back for a moment, and looked closer at GDSL, and for the first time noticed a thread I could pull at, a way to unbend the pipes into… something else. So I worked at it, for three more weeks, and by the end of it I had a system carrying a usable stream of water (if somewhat inconsistently) in a millionth the size of typical plumbing and happily stowable behind a wall. 
+
+So how did it happen? What step was taken this time that didn’t bend the pipes but straightened them?
+
+I stopped acting as if there was a problem to be solved, and started treating it as discovery. When you focus only on making water flow, you only see how to bend pipes. When you ask why we’re even trying to get water from here to there you realize bending the pipes was never the answer. The core of it lies in the act of burning: no shape is sacred, no matter how pretty, because every shape hides a better core beneath, which itself must be burned deeper. You must suffer the kludge, bend the pipes, and then burn it all back to one straight line again, and again, and again, until it carries the water without a bend. You can’t code without kludging, but you can’t build foundational systems while kludging. 
+
+I’ve made that bet with my projects before, I just couldn’t cleanly articulate it until now.
+
+So I will articulate what I see in the world: our technology is kludges arising from seams forming a landscape.
