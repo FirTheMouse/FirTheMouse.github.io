@@ -18,3 +18,9 @@ And this is the answer I’ve landed on so far.
 [Landscapes](Landscapes.md)
 
 [Kludges](Kludges.md)
+
+Sixteen months of digging at concrete, bending pipes, and living in lobbies to build a patch of dirt.
+
+it isn't much if you look at it, it's impressive just because it exists, but nobody lives on it.
+
+I gave it a name, a plaque proclaiming it exists, and tomorrow I plant the first seeds.
