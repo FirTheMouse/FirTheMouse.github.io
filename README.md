@@ -8,4 +8,5 @@ Pages for posting about my work until I decide to tackle websites.
 3/14/26
 
 [Seams](Seams.md)
+
 [Landscapes.md](Landscapes.md)
