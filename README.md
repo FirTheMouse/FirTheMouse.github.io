@@ -4,8 +4,7 @@ Pages for posting about my work until I decide to tackle websites.
 
 [Early GDSL](GDSL1.md)
 
-## Seeds
-3/14/26
+### Seeds 3/14/26
 
 Compilers are enormous these days, millions of lines spanning frontend to backend to turn text to process on a system. Any small compiler gets small by making tradeoffs, it constrains itself to a shape small enough that it fits, or simply doesn't implement the features.
 
